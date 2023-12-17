@@ -2,8 +2,9 @@
 
 1. Run the main.go file or executable file to start the program
 2. Provide your option to add or search contact
-3. To search by name you need to provide the fullname -> `firstName latName`
-4. To make searchable easier, we are storing records by combinatino of `firstName+' '+lastName`
+3. To search by name you need to provide the fullname -> `firstName lastName`
+4. To make searchable easier, we are storing records by combination of `firstName+' '+lastName`
+5. We can also make changes to search by either `firstName` or `lastName`, for this memory usage will be high. Because we need to store contact based on both `firstName` and `lastName`, to maintain performance
 
 Sample output:
 ![Example Image](image1.png)
