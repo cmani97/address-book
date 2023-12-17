@@ -1,6 +1,6 @@
 # Address-Book
 
-1. Run the main.go file or executable file to start the program
+1. Run the main.go file(`go run ./cmd/addressbook/main.go`) or binary file(`./addressbook`) to start the program
 2. Provide your option to add or search contact
 3. To search by name you need to provide the fullname -> `firstName lastName`
 4. To make searchable easier, we are storing records by combination of `firstName+' '+lastName`
